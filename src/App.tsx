@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useState, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Sparkles, Dice5, History, RotateCcw, Volume2, VolumeX, ShieldQuestion, Flame, Zap } from 'lucide-react';
 
