@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --color-neo-bg: #E0E5EC;
+  --color-neo-text: #44476A;
+  --color-truth: #5B9BD5;
+  --color-dare: #E06C75;
+  --color-chaos: #A66EAF;
+  --color-chaos-bg: #F3E5F5;
+}
+
+@layer utilities {
+  .neo-raised {
+    background: #E0E5EC;
+    box-shadow: 9px 9px 16px #becad9, -9px -9px 16px #ffffff;
+  }
+  .neo-inset {
+    background: #E0E5EC;
+    box-shadow: inset 6px 6px 12px #becad9, inset -6px -6px 12px #ffffff;
+  }
+}
